@@ -17,5 +17,5 @@ jobs:
       - run: python src/WxWorkMsg.py
 env: 
     WEBHOOK: ${{ secrets.YJWEBHOOK }}
-    CONTENT: "打卡提醒"
+    CONTENT: "打卡"
     MOBILE: ""
