@@ -16,6 +16,6 @@ jobs:
       - run: pip install requests
       - run: python src/WxWorkMsg.py
 env: 
-    WEBHOOK: ${{ secrets.QTWEBHOOK }}
+    WEBHOOK: ${{ secrets.YJWEBHOOK }}
     CONTENT: "打卡提醒"
     MOBILE: ""
