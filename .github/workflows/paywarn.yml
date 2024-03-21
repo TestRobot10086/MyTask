@@ -16,5 +16,5 @@ jobs:
       - run: python src/WxWorkMsg.py
 env: 
     WEBHOOK: ${{ secrets.YJWEBHOOK }}
-    CONTENT: "还款提醒"
+    CONTENT: "还款"
     MOBILE: ${{ secrets.MOBILE }}
