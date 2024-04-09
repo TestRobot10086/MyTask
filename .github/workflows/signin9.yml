@@ -1,9 +1,9 @@
 name: signin9
-# on: [push]
-on:
-  workflow_dispatch:
-  schedule:
-    - cron:  '0 0 * * 1-5'
+on: [push]
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron:  '0 0 * * 1-5'
 
 jobs:
   run-python-script:
